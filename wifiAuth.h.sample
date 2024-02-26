@@ -1,0 +1,7 @@
+#ifndef wifiAuth_h
+#define wifiAuth_h
+
+const char* ssid = "ssidName";
+const char* password = "password";
+
+#endif
