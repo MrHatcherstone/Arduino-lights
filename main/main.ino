@@ -3,9 +3,12 @@
 #include <ESP8266WebServer.h> //библиотека server
 #include <Esp.h>
 #include <FS.h>
-#include "ArduinoJson.h"
+
 #include <EEPROM.h>
 #include "base64.hpp"
+
+#include "ArduinoJson.h"
+#include "ArduinoJson.hpp"
 
 #include "wifiAuth.h"
 #include "WeelColour.h"

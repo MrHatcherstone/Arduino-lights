@@ -34,11 +34,11 @@ void WeelColourPinkBlue (){
 
     pixels.setPixelColor(ledPosition, pixels.Color(int_R, 0, int_B)); 
     pixels.show();
-
+    
     if (colour + diff > 510 )
         colour = diff;
     else
-      colour += 3;
+      colour += diff;
       
     ledPosition += 1;
     if (ledPosition >= pix_count)
